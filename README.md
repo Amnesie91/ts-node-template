@@ -20,4 +20,4 @@ Includes:
   - a basic logger middleware which saves some information on every request hitting the application ["method", "url", "date"]
   
 Important:
-  - for production make sure u dont add .env to your gitignore file
+  - for production make sure u add .env to your gitignore file, since you dont want to serve publish that in production
