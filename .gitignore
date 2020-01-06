@@ -1,4 +1,14 @@
-node_modules
 package-lock.json
+
+# files from node 
+node_modules
+
+# custom log files 
 logfile.txt
+
+# our compiles js from the npm run build command 
 dist
+
+# environment variables, do not pusblish this file if in production
+#or it contains sensitive information
+.env
