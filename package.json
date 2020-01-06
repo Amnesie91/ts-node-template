@@ -1,8 +1,8 @@
 {
-  "name": "bugtracker",
+  "name": "tsnodetemplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "a ts node template for an easier start",
+  "main": "",
   "scripts": {
     "start": "node dist/app.js",
     "dev": "nodemon src/app.ts",
@@ -20,7 +20,6 @@
     "typescript": "^3.7.4"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.8.4"
+    "express": "^4.17.1"
   }
 }

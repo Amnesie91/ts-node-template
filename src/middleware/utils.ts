@@ -5,7 +5,11 @@ import fs from 'fs';
  * basic logger that appens request information into a logfile.txt
  * @structure "method", "url", "date"
  */
-const loggerMiddleware = (req: Request, res: Response, next: NextFunction) => {
+export const loggerMiddleware = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+): void => {
   fs.appendFile(
     'logfile.txt',
     `url: ${req.url}, method: ${req.method}, date: ${new Date().toString()}\n`,
@@ -14,5 +18,3 @@ const loggerMiddleware = (req: Request, res: Response, next: NextFunction) => {
     }
   );
 };
-
-export default loggerMiddleware;

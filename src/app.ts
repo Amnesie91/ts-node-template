@@ -1,7 +1,7 @@
 import express, { Application } from 'express';
 import dotenv from 'dotenv';
 
-import loggerMiddleware from './middleware/utils';
+import { loggerMiddleware } from './middleware/utils';
 import ticketRoutes from './routes/tickets';
 
 const app: Application = express();
