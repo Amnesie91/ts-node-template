@@ -10,5 +10,5 @@ logfile.txt
 dist
 
 # environment variables, do not pusblish this file if in production
-#or it contains sensitive information
-.env
+# or it contains sensitive information
+# .env
